@@ -1,0 +1,102 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+@media only screen and (max-width: 736px) {
+    .navbar-custom {
+        min-height: 0px;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+    }
+    .collapsing,
+    .in {
+        background-color: black;
+        text-align: center;
+    }
+    .collapsing ul>li>a,
+    .in ul>li>a {
+        color: #FFFFFF!important;
+        text-shadow: #FFFFFF 0px 0px 0.2px!important;
+    }
+    .navbar-collapse .navbar-nav .active a,
+    .navbar-collapse .navbar-nav .active a:hover,
+    .navbar-collapse.navbar-nav .active a:focus {
+        background-color: transparent;
+        color: black!important;
+        text-shadow: black 0px 0px 0.2px!important;
+    }
+    .navbar-collapse>.navbar-nav>li>a:hover,
+    .navbar-collapse>.navbar-nav>li>a:focus {
+        background-color: transparent;
+        color: black !important;
+    }
+    .background-cover{
+      height: 50vh;
+    }
+}
+.background-cover{
+	background:;
+	background-color:#031B62;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.navbar-default{
+  transition:500ms ease;
+  border:0px;
+  background:transparent;
+}
+.navbar-default.scrolled
+{
+  background:black;
+}
+.heading{
+	color: #2E9CCA;
+}
+.home-content{
+	margin-top:18%;
+	margin-bottom: 15%;
+	text-align: center;
+	color: white;
+
+
+}
+.boxshadow{
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+
+}
+.comapny-name{
+	font-weight: bolder;
+	color: #26baff;
+	text-shadow: 1px 2px 4px rgba(0,0,0,.5);
+	font-size: 5vw;
+}
+.comapny-name-second{
+	font-weight: bolder;
+
+	text-shadow: 1px 2px 4px rgba(0,0,0,.5);
+	font-size: 3vw;
+}
+
+.know-more{
+	margin-top: 5%;
+}
+.know-us {
+  font-size: 35px;
+  padding-bottom: 2%;
+}
+.know-para{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  font-size: 20px;
+}
+.link-color{
+	color: white;
+	font-weight: bold;
+}
+.link-color:hover{
+	color:orange;
+}
